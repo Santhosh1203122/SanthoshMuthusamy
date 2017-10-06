@@ -1,0 +1,174 @@
+/* general styles */
+html, body {
+height: 100%;
+width: 100%;
+
+}
+/* padded section */
+
+.pad-section {
+
+padding: 50px 0;
+
+}
+.row{
+    margin: 0;
+}
+.pad-section img {
+
+width: 100%;
+
+}
+@media only screen and (min-device-width: 784px) {
+    .border { 
+        font-size: 4vw !important;
+        
+    }
+    .borders {
+        font-size: 2.5em !important;
+    }
+    a {
+    font-size: 2vw !important;
+    color:white;
+
+}
+}
+.borders {
+     /* background-color: hsla(0, 0%, 7%, 0.25);;  */
+    font-family : Handycheera;
+	font-size : 4vw;
+	color : #FFFFFF;
+	
+    /* padding: 18px; */
+   
+}
+.border {
+     /* background-color: hsla(0, 0%, 7%, 0.25);;  */
+    font-family : KG Blank Space Sketch;
+	 font-size : 7vw; 
+	color : #FFFFFF;
+     /* padding: 18px; */
+         
+}
+    .circle {
+        
+	border: solid 1px #555;
+	background-color: rgba(238, 238, 221, 0.72);
+	box-shadow: 10px -10px  rgba(0,0,0,0.6);
+	-moz-box-shadow: 10px -10px  rgba(0,0,0,0.6);
+	-webkit-box-shadow: 10px -10px  rgba(0,0,0,0.6);
+	-o-box-shadow: 10px -10px  rgba(0,0,0,0.6);
+	border-radius:100%;
+}
+.share{
+    z-index: 999;
+    color:white;
+    width: 100vw;
+    background: hsla(240, 0%, 7%, 0.31);
+   
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 25px;
+    position: fixed
+}
+/* vertical-centered text */
+
+.text-vcenter {
+
+display: table-cell;
+
+text-align: center;
+
+vertical-align: middle;
+
+}
+
+.text-vcenter h1 {
+
+font-size: 4.5em;
+
+font-weight: 700;
+
+margin: 0;
+
+padding: 0;
+
+}
+
+/* additional sections */
+
+#home {
+
+background: url(./img1.jpg) no-repeat center center fixed;
+ /* background-color: rgba(195, 178, 178, 0.26); */
+ /* background-blend-mode: lighten; */
+
+display: table;
+
+height: 100%;
+color: white;
+position: relative;
+
+width: 100%;
+
+-webkit-background-size: cover;
+
+-moz-background-size: cover;
+
+-o-background-size: cover;
+
+background-size: cover;
+
+}
+#middleabout{
+
+background: url(./about.jpg) no-repeat center center fixed;
+ background-color: rgba(195, 178, 178, 0.26);
+ background-blend-mode: lighten;
+
+display: table;
+
+height: 50%;
+color: white;
+position: relative;
+
+width: 100%;
+
+-webkit-background-size: cover;
+
+-moz-background-size: cover;
+
+-o-background-size: cover;
+
+background-size: cover;
+
+}
+#bottom {
+
+background: url(./img.jpg) no-repeat center center fixed;
+ background-color: rgba(195, 178, 178, 0.26);
+ background-blend-mode: lighten;
+
+display: table;
+
+height: 100%;
+color: white;
+position: relative;
+
+width: 100%;
+
+-webkit-background-size: cover;
+
+-moz-background-size: cover;
+
+-o-background-size: cover;
+
+background-size: cover;
+
+}
+ a {
+    font-size: 3vw;
+    
+    color:white;
+}
