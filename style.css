@@ -1,3 +1,13 @@
+
+@font-face {  
+    font-family: font1;
+    src: url(KGTangledUpInYou.ttf);
+}
+@font-face {  
+    font-family: font2;
+    src: url(KGBlankSpaceSketch.ttf);
+}
+
 /* general styles */
 html, body {
 height: 100%;
@@ -44,7 +54,7 @@ width: 100%;
 }
 .border {
      /* background-color: hsla(0, 0%, 7%, 0.25);;  */
-    font-family : KG Blank Space Sketch;
+    font-family : font2;
 	 font-size : 7vw; 
 	color : #FFFFFF;
      /* padding: 18px; */
