@@ -9,7 +9,7 @@ src: url('./KGBlankSpaceSketch.eot') format('embedded-opentype'),
 }
     @font-face {
     font-family: 'font1';
-    src: url('./fonts/Handycheera.otf') format('truetype');
+    src: url('./Handycheera.otf') format('truetype');
     }
  
 
