@@ -1,0 +1,12 @@
+/* Webfont: KGTangledUpInYou */@font-face {
+    font-family: 'KGTangledUpInYou';
+    src: url('KGTangledUpInYou.eot'); /* IE9 Compat Modes */
+    src: url('KGTangledUpInYou.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('KGTangledUpInYou.woff') format('woff'), /* Modern Browsers */
+         url('KGTangledUpInYou.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('KGTangledUpInYou.svg#KGTangledUpInYou') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
