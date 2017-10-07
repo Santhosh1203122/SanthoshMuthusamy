@@ -56,13 +56,18 @@ width: 100%;
 @media only screen and (max-device-width: 500px) {
 
     .circle { 
-	    font-family: font2 !important;
-        font-size: 20px !important;
+        font-family: font2 !important;
+        font-size: 15px !important;
         
     }
     
+    .circle p{
+        margin-top:10vh !important;
+    }   
 
-
+}
+.circle p{
+    margin-top:9vh;
 }
 .borders {
      /* background-color: hsla(0, 0%, 7%, 0.25);;  */
@@ -83,16 +88,16 @@ width: 100%;
 }
     .circle {
         height:25vh;
-	text-align:center;
-        font-family:font2;
+        text-align:center;
+        font-family: font2;
         font-size:30px;
-	border: solid 1px #555;
-	background-color: rgba(238, 238, 221, 0.72);
-	box-shadow: 10px -10px  rgba(0,0,0,0.6);
-	-moz-box-shadow: 10px -10px  rgba(0,0,0,0.6);
-	-webkit-box-shadow: 10px -10px  rgba(0,0,0,0.6);
-	-o-box-shadow: 10px -10px  rgba(0,0,0,0.6);
-	border-radius:100%;
+        border: solid 1px #555;
+        background-color: rgba(238, 238, 221, 0.72);
+        box-shadow: 10px -10px  rgba(0,0,0,0.6);
+        -moz-box-shadow: 10px -10px  rgba(0,0,0,0.6);
+        -webkit-box-shadow: 10px -10px  rgba(0,0,0,0.6);
+        -o-box-shadow: 10px -10px  rgba(0,0,0,0.6);
+        border-radius:100%;
 }
 .share{
     z-index: 999;
