@@ -43,6 +43,16 @@ width: 100%;
 
 }
 }
+@media only screen and (max-device-width: 500px) {
+
+    .circle { 
+        font-size: 20px !important;
+        
+    }
+    
+
+
+}
 .borders {
      /* background-color: hsla(0, 0%, 7%, 0.25);;  */
     font-family : Handycheera;
@@ -61,7 +71,9 @@ width: 100%;
          
 }
     .circle {
-        
+        height:25vh;text-align:center;
+        font-family:font1;
+        font-size:30px;
 	border: solid 1px #555;
 	background-color: rgba(238, 238, 221, 0.72);
 	box-shadow: 10px -10px  rgba(0,0,0,0.6);
