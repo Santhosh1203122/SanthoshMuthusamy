@@ -7,10 +7,11 @@ src: url('./KGBlankSpaceSketch.eot') format('embedded-opentype'),
      url('./KGBlankSpaceSketch.ttf') format('truetype'),
      url('./KGBlankSpaceSketch.svg#LatoRegular') format('svg');
 }
-   @font-face {
+    @font-face {
     font-family: 'font1';
-    src: url('./Handycheera.otf') format('truetype');
+    src: url('./fonts/Handycheera.otf') format('truetype');
     }
+ 
 
 
 /* general styles */
@@ -48,8 +49,21 @@ width: 100%;
 
 }
 }
-@media only screen and (max-device-width: 500px) {
+@media only screen and (max-device-width: 800px) {
+#aboutme p{
+        background: rgba(0, 0, 0, 0.4);
+        font-size:1.2em !important;
+}
+    
 
+}
+@media only screen and (max-device-width: 500px) {
+    #aboutme p{
+        background: rgba(0, 0, 0, 0.4);
+        font-size:0.9em !important;
+        padding: 5%;
+    }
+  
     .circle { 
         font-family: font2 !important;
         font-size: 15px !important;
@@ -63,6 +77,10 @@ width: 100%;
 }
 .circle p{
     margin-top:9vh;
+}
+.circle hover{
+   color:red;
+   cursor: pointer;
 }
 .borders {
      /* background-color: hsla(0, 0%, 7%, 0.25);;  */
@@ -178,7 +196,8 @@ width: 100%;
 background-size: cover;
 
 }
-#bottom {
+
+#aboutme{
 
 background: url(./img.jpg) no-repeat center center fixed;
  background-color: rgba(195, 178, 178, 0.26);
