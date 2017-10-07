@@ -7,15 +7,10 @@ src: url('./KGBlankSpaceSketch.eot') format('embedded-opentype'),
      url('./KGBlankSpaceSketch.ttf') format('truetype'),
      url('./KGBlankSpaceSketch.svg#LatoRegular') format('svg');
 }
-    @font-face {
-font-family: 'font1';
-src: url('./KGTangledUpInYou.eot');
-src: url('./KGTangledUpInYou.eot') format('embedded-opentype'),
-     url('./KGTangledUpInYou.woff2') format('woff2'),
-     url('./KGTangledUpInYou.woff') format('woff'),
-     url('./KGTangledUpInYou.ttf') format('truetype'),
-     url('./KGTangledUpInYou.svg#LatoRegular') format('svg');
-}
+   @font-face {
+    font-family: 'font1';
+    src: url('./Handycheera.otf') format('truetype');
+    }
 
 
 /* general styles */
@@ -71,7 +66,7 @@ width: 100%;
 }
 .borders {
      /* background-color: hsla(0, 0%, 7%, 0.25);;  */
-    font-family : Handycheera;
+    font-family : font1;
 	font-size : 4vw;
 	color : #FFFFFF;
 	
