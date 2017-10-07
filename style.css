@@ -1,12 +1,22 @@
+@font-face {
+font-family: 'font2';
+src: url('./KGBlankSpaceSketch.eot');
+src: url('./KGBlankSpaceSketch.eot') format('embedded-opentype'),
+     url('./KGBlankSpaceSketch.woff2') format('woff2'),
+     url('./KGBlankSpaceSketch.woff') format('woff'),
+     url('./KGBlankSpaceSketch.ttf') format('truetype'),
+     url('./KGBlankSpaceSketch.svg#LatoRegular') format('svg');
+}
+    @font-face {
+font-family: 'font1';
+src: url('./KGTangledUpInYou.eot');
+src: url('./KGTangledUpInYou.eot') format('embedded-opentype'),
+     url('./KGTangledUpInYou.woff2') format('woff2'),
+     url('./KGTangledUpInYou.woff') format('woff'),
+     url('./KGTangledUpInYou.ttf') format('truetype'),
+     url('./KGTangledUpInYou.svg#LatoRegular') format('svg');
+}
 
-@font-face {  
-    font-family: font1;
-    src: url(KGTangledUpInYou.ttf);
-}
-@font-face {  
-    font-family: font2;
-    src: url(KGBlankSpaceSketch.ttf);
-}
 
 /* general styles */
 html, body {
