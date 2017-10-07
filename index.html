@@ -31,9 +31,11 @@
     </div>
     <div id="middleabout" >
         <div  style="height:100vh;margin-top:2%;margin-bottom:2%;">
+            <a id="aboutbutton" >
             <div class="row">
                 <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-1  col-lg-2 col-md-3 col-sm-3 col-xs-4 circle" ><p >ABOUT ME</p></div>
             </div> 
+            </a>
             <div class="row">
                 <div class="col-lg-offset-3 col-md-offset-4 col-sm-offset-4 col-xs-offset-5 col-lg-2 col-md-3 col-sm-3 col-xs-4 circle " style="background:rgba(230, 235, 0, 0.31); "><p >SKILLS</p></div>
             </div>
@@ -51,9 +53,14 @@
     <!-- <div id="about" class="pad-section">
         
     </div> -->
-    <div id="bottom" class="bottom">
-        <div class="text-vcenter">
-
+    <div id="aboutme">
+        <div class="text-vcenter" style="vertical-align:middle;font-family:font1;font-size:30px">
+            <div class="row">
+                <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-2 col-lg-5 col-md-4 col-sm-8 col-xs-12" style="text-align:left">
+                   <p style="text-align:justify">" Passionated Web developer with creative mind which always thinks of creating and learning new things in various technology. I started web developing by the age of 12. Then during High school created small small websites. During College days created and maintained website for our department. But officialy became a Front End Web Developer in the year 2016 and started creating responsive and elegant websites"</p>
+                </div>
+            </div>
+            
         </div>
     </div>
     <div id="about" class="pad-section">
@@ -76,6 +83,11 @@
         $("#down").click(function() {
         $('html,body').animate({
             scrollTop: $("#middleabout").offset().top},
+            'slow');
+        });
+        $("#aboutbutton").click(function() {
+        $('html,body').animate({
+            scrollTop: $("#aboutme").offset().top},
             'slow');
         });
     </script>
