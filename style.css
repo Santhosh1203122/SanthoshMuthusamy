@@ -99,6 +99,9 @@ width: 100%;
      /* padding: 18px; */
          
 }
+#aboutbutton:hover{
+    cursor: pointer;
+}
     .circle {
         height:25vh;
         text-align:center;
