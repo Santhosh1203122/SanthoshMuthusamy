@@ -2,24 +2,26 @@
 <html lang="en">
 
 <head>
-    
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Script Tutorials" />
     <title>Santhosh Muthusamy</title>
-    
+    <link href="https://fonts.googleapis.com/css?family=Merienda+One" rel="stylesheet">
     <!-- attach CSS styles -->
+    <script  src="./jquery.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="style.css" rel="stylesheet" />
 </head>
 
-<body >
+<body>
     <!--  BODY PAGE CONTENT -->
-    <div class="share"><img src="1.png"></div>
+    <div class="share"><img src="1.png">
+    </div>
     <!-- first section - Home -->
     <div id="home" class="home">
         <div class="text-vcenter">
-          <p class="border">Santhosh Muthusamy</p>
-            
+            <p class="border">Santhosh Muthusamy</p>
+
 
             <div class="borders">
                 <p>Passionated Web developer with creative mind</p>
@@ -29,24 +31,40 @@
             <a id="down" class="glyphicon glyphicon-chevron-down "></a>
         </div>
     </div>
-    <div id="middleabout" >
-        <div  style="height:100vh;margin-top:2%;margin-bottom:2%;">
-            <a id="aboutbutton" >
-            <div class="row">
-                <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-1  col-lg-2 col-md-3 col-sm-3 col-xs-4 circle" ><p >ABOUT ME</p></div>
-            </div> 
-            </a>
-            <div class="row">
-                <div class="col-lg-offset-3 col-md-offset-4 col-sm-offset-4 col-xs-offset-5 col-lg-2 col-md-3 col-sm-3 col-xs-4 circle " style="background:rgba(230, 235, 0, 0.31); "><p >SKILLS</p></div>
-            </div>
-             <div class="row">
-                <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-1 col-lg-2 col-md-3 col-sm-3 col-xs-4 circle" style="background:rgba(230, 235, 0, 0.31) "><p>PROJECT</p></div>
-            </div>  
-             <div class="row">
-                <div class="col-lg-offset-3 col-md-offset-4 col-sm-offset-4 col-xs-offset-5 col-lg-2 col-md-3 col-sm-3 col-xs-4 circle" style="background:hsla(246, 34%, 44%, 0.59); "><p >EXPERIENCE</p></div>
-            </div>
-                
+    <div id="middleabout">
+        <div style="height:100vh;margin-top:2%;margin-bottom:2%;">
+           
+                <div class="row">
+                     <a id="aboutbutton">
+                    <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-1  col-lg-2 col-md-3 col-sm-3 col-xs-4 circle">
+                        <p>ABOUT ME</p>
+                    </div>
+                     </a>
+                </div>
+           
             
+            <div class="row">
+                <a id="skillsbutton">
+                <div class="col-lg-offset-3 col-md-offset-4 col-sm-offset-4 col-xs-offset-5 col-lg-2 col-md-3 col-sm-3 col-xs-4 circle " style="background:rgba(230, 235, 0, 0.31); ">
+                    <p>SKILLS</p>
+                </div>
+                </a>
+            </div>
+            
+            <div class="row">
+                <a id="projectbutton">
+                <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-1 col-lg-2 col-md-3 col-sm-3 col-xs-4 circle" style="background:rgba(230, 235, 0, 0.31) ">
+                    <p>PROJECT</p>
+                </div>
+                </a>
+            </div>
+            <div class="row">
+                <div class="col-lg-offset-3 col-md-offset-4 col-sm-offset-4 col-xs-offset-5 col-lg-2 col-md-3 col-sm-3 col-xs-4 circle" style="background:hsla(246, 34%, 44%, 0.59); ">
+                    <p>CONTACT</p>
+                </div>
+            </div>
+
+
         </div>
     </div>
     <!-- /first section -->
@@ -56,39 +74,197 @@
     <div id="aboutme">
         <div class="text-vcenter" style="vertical-align:middle;font-family:font1;font-size:30px">
             <div class="row">
-                <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-2 col-lg-5 col-md-4 col-sm-8 col-xs-12" style="text-align:left">
-                   <p style="text-align:justify">" Passionated Web developer with creative mind which always thinks of creating and learning new things in various technology. I started web developing by the age of 12. Then during High school created small small websites. During College days created and maintained website for our department. But officialy became a Front End Web Developer in the year 2016 and started creating responsive and elegant websites"</p>
+                <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-2 col-lg-5 col-md-5 col-sm-8 col-xs-12" style="text-align:left">
+                    <p style="font-family:font2;text-align:center;margin: 0 0 0px;">About Me</p>
+                    <p style="text-align:justify"><span></span>" Passionated Web developer with creative mind which always thinks of creating and learning new things in various technology. I started web developing by the age of 12. Then during High school created small small websites. During College days created and maintained website for our department. But officialy became a Front End Web Developer in the year 2016 and started creating responsive and elegant websites"</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div id="skills">
+        <div class="row" style="padding:5%">
+            <div class="row">
+                <h3 class="skillheader">Skills</h3>
+            </div>
+
+            <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-lg-10 col-md-10 col-sm-10 col-xs-12">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" style="margin-bottom:3vh">
+                        <div style="color:rgba(0, 0, 0, 0.57)">Angular 2</div>
+                        <div class="skillbar row" data-percent="70%">
+
+                            <div class="skillbar-bar col-lg-12 col-md-12 col-sm-12 col-xs-12" style="background: rgba(66, 64, 63, 0.4)">
+                                <p style="vertical-align:middle;text-align:right;margin-right:2%;">70%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" style="margin-bottom:3vh">
+                        <div style="color:rgba(0, 0, 0, 0.57)">HTML 5</div>
+                        <div class="skillbar row" data-percent="80%">
+                            <div class="skillbar-bar col-lg-12 col-md-12 col-sm-12 col-xs-12" style="background: rgba(66, 64, 63, 0.4)">
+                                <p style="vertical-align:middle;text-align:right;margin-right:2%;">80%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" style="margin-bottom:3vh">
+                        <div style="color:rgba(0, 0, 0, 0.57)">CSS3</div>
+                        <div class="skillbar row" data-percent="70%">
+                            <div class="skillbar-bar col-lg-12 col-md-12 col-sm-12 col-xs-12" style="background: rgba(66, 64, 63, 0.4)">
+                                <p style="vertical-align:middle;text-align:right;margin-right:2%;">70%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" style="margin-bottom:3vh">
+                        <div style="color:rgba(0, 0, 0, 0.57)">Javascript</div>
+                        <div class="skillbar row" data-percent="85%">
+
+                            <div class="skillbar-bar col-lg-12 col-md-12 col-sm-12 col-xs-12" style="background: rgba(66, 64, 63, 0.4)">
+                                <p style="vertical-align:middle;text-align:right;margin-right:2%;">85%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" style="margin-bottom:3vh">
+                        <div style="color:rgba(0, 0, 0, 0.57)">TypeScript</div>
+                        <div class="skillbar row" data-percent="60%">
+                            <div class="skillbar-bar col-lg-12 col-md-12 col-sm-12 col-xs-12" style="background: rgba(66, 64, 63, 0.4)">
+                                <p style="vertical-align:middle;text-align:right;margin-right:2%;">60%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" style="margin-bottom:3vh">
+                        <div style="color:rgba(0, 0, 0, 0.57)">BootStrap</div>
+                        <div class="skillbar row" data-percent="80%">
+                            <div class="skillbar-bar col-lg-12 col-md-12 col-sm-12 col-xs-12" style="background: rgba(66, 64, 63, 0.4)">
+                                <p style="vertical-align:middle;text-align:right;margin-right:2%;">80%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" style="margin-bottom:3vh">
+                        <div style="color:rgba(0, 0, 0, 0.57)">Ionic 3</div>
+                        <div class="skillbar row" data-percent="60%">
+
+                            <div class="skillbar-bar col-lg-12 col-md-12 col-sm-12 col-xs-12" style="background: rgba(66, 64, 63, 0.4)">
+                                <p style="vertical-align:middle;text-align:right;margin-right:2%;">60%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" style="margin-bottom:3vh">
+                        <div style="color:rgba(0, 0, 0, 0.57)">Electron</div>
+                        <div class="skillbar row" data-percent="50%">
+                            <div class="skillbar-bar col-lg-12 col-md-12 col-sm-12 col-xs-12" style="background: rgba(66, 64, 63, 0.4)">
+                                <p style="vertical-align:middle;text-align:right;margin-right:2%;">50%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" style="margin-bottom:3vh">
+                        <div style="color:rgba(0, 0, 0, 0.57)">Express Js</div>
+                        <div class="skillbar row" data-percent="60%">
+                            <div class="skillbar-bar col-lg-12 col-md-12 col-sm-12 col-xs-12" style="background: rgba(66, 64, 63, 0.4)">
+                                <p style="vertical-align:middle;text-align:right;margin-right:2%;">60%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" style="margin-bottom:3vh">
+                        <div style="color:rgba(0, 0, 0, 0.57)">Python</div>
+                        <div class="skillbar row" data-percent="90%">
+
+                            <div class="skillbar-bar col-lg-12 col-md-12 col-sm-12 col-xs-12" style="background: rgba(66, 64, 63, 0.4)">
+                                <p style="vertical-align:middle;text-align:right;margin-right:2%;">90%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" style="margin-bottom:3vh">
+                        <div style="color:rgba(0, 0, 0, 0.57)">MySql</div>
+                        <div class="skillbar row" data-percent="80%">
+                            <div class="skillbar-bar col-lg-12 col-md-12 col-sm-12 col-xs-12" style="background: rgba(66, 64, 63, 0.4)">
+                                <p style="vertical-align:middle;text-align:right;margin-right:2%;">80%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" style="margin-bottom:3vh">
+                        <div style="color:rgba(0, 0, 0, 0.57)">jQuery</div>
+                        <div class="skillbar row" data-percent="60%">
+                            <div class="skillbar-bar col-lg-12 col-md-12 col-sm-12 col-xs-12" style="background: rgba(66, 64, 63, 0.4)">
+                                <p style="vertical-align:middle;text-align:right;margin-right:2%;">60%</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             
-        </div>
     </div>
-    <div id="about" class="pad-section">
-        <div class="container">
+   
+    </div>
+    <div id="project">
+        <div class="text-vcenter" style="vertical-align:middle;font-family:font1;font-size:30px">
             <div class="row">
-                <div class="col-sm-6">
-                    <img src="images/logo.png" alt="" />
-                </div>
-                <div class="col-sm-6 text-center">
-                   
-                     
+                <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-2 col-lg-5 col-md-4 col-sm-8 col-xs-12" style="text-align:left">
+                    
+                    
                 </div>
             </div>
+
         </div>
     </div>
-    
-    <!-- attach JavaScripts -->
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+
     <script>
         $("#down").click(function() {
-        $('html,body').animate({
-            scrollTop: $("#middleabout").offset().top},
-            'slow');
+            $('html,body').animate({
+                    scrollTop: $("#middleabout").offset().top
+                },
+                'slow');
         });
+        
         $("#aboutbutton").click(function() {
-        $('html,body').animate({
-            scrollTop: $("#aboutme").offset().top},
-            'slow');
+            $('html,body').animate({
+                    scrollTop: $("#aboutme").offset().top
+                },
+                'slow');
+        });
+        $("#projectbutton").click(function() {
+            $('html,body').animate({
+                    scrollTop: $("#project").offset().top
+                },
+                'slow');
+        });
+         $("#skillsbutton").click(function() {
+            jQuery('.skillbar').each(function() {
+                jQuery(this).find('.skillbar-bar').animate({
+                    width: 0
+                });
+            });
+            $('html,body').animate({
+                    scrollTop: $("#skills").offset().top
+                },
+                'slow');
+            
+            jQuery('.skillbar').each(function() {
+                jQuery(this).find('.skillbar-bar').animate({
+                    width: jQuery(this).attr('data-percent')
+                }, 1500);
+            });
+        });
+        $("#skillsbutton").click(function() {
+            
+                jQuery(this).find('#expand').animate({
+                    width: 70
+                }, 1500);
+            
+        });
+       
+        jQuery(document).ready(function() {
+            jQuery('.skillbar').each(function() {
+                jQuery(this).find('.skillbar-bar').animate({
+                    width: jQuery(this).attr('data-percent')
+                }, 1500);
+            });
         });
     </script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>

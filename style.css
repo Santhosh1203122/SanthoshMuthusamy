@@ -1,234 +1,209 @@
 @font-face {
-font-family: 'font2';
-src: url('./KGBlankSpaceSketch.eot');
-src: url('./KGBlankSpaceSketch.eot') format('embedded-opentype'),
-     url('./KGBlankSpaceSketch.woff2') format('woff2'),
-     url('./KGBlankSpaceSketch.woff') format('woff'),
-     url('./KGBlankSpaceSketch.ttf') format('truetype'),
-     url('./KGBlankSpaceSketch.svg#LatoRegular') format('svg');
+    font-family: 'font2';
+    src: url('./KGBlankSpaceSketch.eot');
+    src: url('./KGBlankSpaceSketch.eot') format('embedded-opentype'), url('./KGBlankSpaceSketch.woff2') format('woff2'), url('./KGBlankSpaceSketch.woff') format('woff'), url('./KGBlankSpaceSketch.ttf') format('truetype'), url('./KGBlankSpaceSketch.svg#LatoRegular') format('svg');
 }
-    @font-face {
+@font-face {
     font-family: 'font1';
     src: url('./Handycheera.otf') format('truetype');
-    }
- 
-
-
+}
 /* general styles */
-html, body {
-height: 100%;
-width: 100%;
 
+html,
+body {
+    height: 100%;
+    width: 100%;
 }
-/* padded section */
 
-.pad-section {
 
-padding: 50px 0;
 
-}
-.row{
+.row {
     margin: 0;
 }
-.pad-section img {
 
-width: 100%;
-
-}
-#aboutbutton:hover{
-    cursor: pointer;
-}
 @media only screen and (min-device-width: 784px) {
-    .border { 
+    .border {
         font-size: 4vw !important;
-        
     }
     .borders {
         font-size: 2.5em !important;
     }
     a {
-    font-size: 2vw !important;
-    color:white;
-
-}
+        font-size: 2vw !important;
+        color: white;
+    }
+    
 }
 @media only screen and (max-device-width: 800px) {
-#aboutme p{
+    #aboutme p {
         background: rgba(0, 0, 0, 0.4);
-        font-size:1.2em !important;
-}
-    
-
+        font-size: 1.2em !important;
+    }
 }
 @media only screen and (max-device-width: 500px) {
-    #aboutme p{
+    #aboutme p {
         background: rgba(0, 0, 0, 0.4);
-        font-size:0.9em !important;
+        font-size: 0.9em !important;
         padding: 5%;
     }
-  
-    .circle { 
+    .circle {
         font-family: font2 !important;
         font-size: 15px !important;
-        
     }
-    
-    .circle p{
-        margin-top:10vh !important;
-    }   
-
+    .circle p {
+        margin-top: 10vh !important;
+    }
 }
-.circle p{
-    margin-top:9vh;
+.circle p {
+    margin-top: 9vh;
 }
-.circle hover{
-   color:red;
-   cursor: pointer;
+.circle hover {
+    color: red;
+    cursor: pointer;
 }
 .borders {
-     /* background-color: hsla(0, 0%, 7%, 0.25);;  */
-    font-family : font1;
-	font-size : 4vw;
-	color : #FFFFFF;
-	
+    /* background-color: hsla(0, 0%, 7%, 0.25);;  */
+    
+    font-family: font1;
+    font-size: 4vw;
+    color: #FFFFFF;
     /* padding: 18px; */
-   
 }
 .border {
-     /* background-color: hsla(0, 0%, 7%, 0.25);;  */
-    font-family : font2;
-	 font-size : 7vw; 
-	color : #FFFFFF;
-     /* padding: 18px; */
-         
+    /* background-color: hsla(0, 0%, 7%, 0.25);;  */
+    
+    font-family: font2;
+    font-size: 7vw;
+    color: #FFFFFF;
+    /* padding: 18px; */
 }
-
-    .circle {
-        height:25vh;
-        text-align:center;
-        font-family: font2;
-        font-size:30px;
-        border: solid 1px #555;
-        background-color: rgba(238, 238, 221, 0.72);
-        box-shadow: 10px -10px  rgba(0,0,0,0.6);
-        -moz-box-shadow: 10px -10px  rgba(0,0,0,0.6);
-        -webkit-box-shadow: 10px -10px  rgba(0,0,0,0.6);
-        -o-box-shadow: 10px -10px  rgba(0,0,0,0.6);
-        border-radius:100%;
+.circle {
+    height: 25vh;
+    text-align: center;
+    font-family: font2;
+    font-size: 20px;
+    border: solid 1px #555;
+    background-color: rgba(238, 238, 221, 0.72);
+    box-shadow: 10px -10px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 10px -10px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: 10px -10px rgba(0, 0, 0, 0.6);
+    -o-box-shadow: 10px -10px rgba(0, 0, 0, 0.6);
+    border-radius: 100%;
 }
-.share{
+.skillheader{
+        font-family: 'Merienda One', cursive;
+    text-align: center;
+    color: rgba(90, 50, 50, 0.67);
+    margin-bottom: 5%;
+    font-size:40px;
+}
+.share {
     z-index: 999;
-    color:white;
-    width: 100vw;
+    color: white;
+ 
     background: hsla(240, 0%, 7%, 0.31);
-   
     margin: 0;
     padding: 0;
     list-style: none;
     font-size: 25px;
     position: fixed
 }
-/* vertical-centered text */
+
 
 .text-vcenter {
-
-display: table-cell;
-
-text-align: center;
-
-vertical-align: middle;
-
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
 }
 
-.text-vcenter h1 {
-
-font-size: 4.5em;
-
-font-weight: 700;
-
-margin: 0;
-
-padding: 0;
-
-}
-
-/* additional sections */
 
 #home {
-
-background: url(./img1.jpg) no-repeat center center fixed;
- /* background-color: rgba(195, 178, 178, 0.26); */
- /* background-blend-mode: lighten; */
-
-display: table;
-
-height: 100%;
-color: white;
-position: relative;
-
-width: 100%;
-
--webkit-background-size: cover;
-
--moz-background-size: cover;
-
--o-background-size: cover;
-
-background-size: cover;
-
-}
-#middleabout{
-
-background: url(./about.jpg) no-repeat center center fixed;
- background-color: rgba(195, 178, 178, 0.26);
- background-blend-mode: lighten;
-
-display: table;
-
-height: 50%;
-color: white;
-position: relative;
-
-width: 100%;
-
--webkit-background-size: cover;
-
--moz-background-size: cover;
-
--o-background-size: cover;
-
-background-size: cover;
-
-}
-
-#aboutme{
-
-background: url(./img.jpg) no-repeat center center fixed;
- background-color: rgba(195, 178, 178, 0.26);
- background-blend-mode: lighten;
-
-display: table;
-
-height: 100%;
-color: white;
-position: relative;
-
-width: 100%;
-
--webkit-background-size: cover;
-
--moz-background-size: cover;
-
--o-background-size: cover;
-
-background-size: cover;
-
-}
- a {
-    font-size: 3vw;
+    background: url(./img1.jpg) no-repeat center center fixed;
+    /* background-color: rgba(195, 178, 178, 0.26); */
+    /* background-blend-mode: lighten; */
     
-    color:white;
+    display: table;
+    height: 100%;
+    color: white;
+    position: relative;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
-#aboutbutton:hover{
-    cursor: pointer;
+#middleabout {
+    background: url(./about.jpg) no-repeat center center fixed;
+    background-color: rgba(195, 178, 178, 0.26);
+    background-blend-mode: lighten;
+    display: table;
+    height: 50%;
+    color: white;
+    position: relative;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#aboutme {
+    background: url(./img.jpg) no-repeat center center fixed;
+    background-color: rgba(195, 178, 178, 0.26);
+    background-blend-mode: lighten;
+    display: table;
+    height: 100%;
+    color: white;
+    position: relative;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#skills {
+    background: url(./skills.jpg) no-repeat center center fixed;
+    background-color: rgba(195, 178, 178, 0.26);
+    background-blend-mode: lighten;
+
+    display: table;
+    height: 100%;
+    color: white;
+    position: relative;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#project {
+    background: url(./project.jpg) no-repeat center center fixed;
+    /* background-color: rgba(195, 178, 178, 0.26); */
+    background-blend-mode: lighten;
+
+    display: table;
+    height: 100%;
+    color: white;
+    position: relative;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.skillbar-bar {
+	height:20px;
+	width:0px;
+	background:#6adcfa;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+}
+
+a {
+    font-size: 3vw;
+    color: white;
+}
+.circle:hover {
+    cursor:pointer;
 }
