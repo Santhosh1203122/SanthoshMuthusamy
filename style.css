@@ -53,6 +53,10 @@ body {
     .circle p {
         margin-top: 10vh !important;
     }
+    #headericon div{
+    /*background: rgba(93, 86, 187, 0.44);*/
+    font-size: 75% !important;
+    }
 }
 .circle p {
     margin-top: 9vh;
@@ -90,6 +94,10 @@ body {
     -o-box-shadow: 10px -10px rgba(0, 0, 0, 0.6);
     border-radius: 100%;
 }
+#headericon div:hover{
+    /*background: rgba(93, 86, 187, 0.44);*/
+    cursor: pointer;
+}
 .skillheader{
         font-family: 'Merienda One', cursive;
     text-align: center;
@@ -102,13 +110,15 @@ body {
     color: white;
  
     background: hsla(240, 0%, 7%, 0.31);
-    margin: 0;
+    margin: 0 1vw;
     padding: 0;
     list-style: none;
     font-size: 25px;
     position: fixed
 }
-
+#shareimg:hover{
+    cursor: pointer;
+}
 
 .text-vcenter {
     display: table-cell;
