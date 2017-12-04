@@ -69,8 +69,8 @@ body {
     /* background-color: hsla(0, 0%, 7%, 0.25);;  */
     
     font-family: font1;
-    font-size: 4vw;
-    color: #FFFFFF;
+    font-size: 2vw;
+    color: black;
     /* padding: 18px; */
 }
 .border {
@@ -78,7 +78,7 @@ body {
     
     font-family: font2;
     font-size: 7vw;
-    color: #FFFFFF;
+    color: black;
     /* padding: 18px; */
 }
 .circle {
@@ -93,7 +93,7 @@ body {
     -webkit-box-shadow: 10px -10px rgba(0, 0, 0, 0.6);
     -o-box-shadow: 10px -10px rgba(0, 0, 0, 0.6);
     border-radius: 100%;
-	 cursor:pointer;
+    cursor:pointer;
 }
 
 .skillheader{
@@ -106,9 +106,9 @@ body {
 .share {
     z-index: 999;
     color: white;
- 
-    background: hsla(240, 0%, 7%, 0.31);
-    margin: 0 1vw;
+    box-shadow: 0px 10px 5px #888888;
+    background: hsla(240, 0%, 7%, 0.67);
+    /*margin: 0 1vw;*/
     padding: 0;
     list-style: none;
     font-size: 25px;
@@ -210,7 +210,7 @@ a {
     font-size: 3vw;
     color: white;
 }
-/* .circle:hover {
+/*.circle:hover {
     cursor:pointer;
-} */
+}*/
 
