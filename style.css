@@ -4,6 +4,11 @@
     src: url('./KGBlankSpaceSketch.eot') format('embedded-opentype'), url('./KGBlankSpaceSketch.woff2') format('woff2'), url('./KGBlankSpaceSketch.woff') format('woff'), url('./KGBlankSpaceSketch.ttf') format('truetype'), url('./KGBlankSpaceSketch.svg#LatoRegular') format('svg');
 }
 @font-face {
+    font-family: 'font3';
+    src: url('./Gidole-Regular.otf');
+    
+}
+@font-face {
     font-family: 'font1';
     src: url('./Handycheera.otf') format('truetype');
 }
@@ -34,12 +39,86 @@ body {
     }
     
 }
-@media only screen and (max-device-width: 800px) {
+#aboutme {
+   
+    /*background-color: rgba(195, 178, 178, 0.26);*/
+    background-blend-mode: lighten;
+    display: table;
+    height: 100%;
+    color: white;
+    position: relative;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#home {
+    background: url(./img1.jpg) no-repeat center center fixed;
+    /* background-color: rgba(195, 178, 178, 0.26); */
+    /* background-blend-mode: lighten; */
+    
+    display: table;
+    height: 100%;
+    color: white;
+    position: relative;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+/* for large screen*/
+@media only screen and (min-width: 1025px) {
+     #aboutme {
+        background: url(./img.jpg) no-repeat center center fixed;
+     }
+}
+/* for medium-large size screen*/
+@media only screen and (max-width: 1024px) {
+    #home {
+    background: url(./img1-md.jpg) no-repeat center center fixed;
+    }
+    #aboutme {
+        background: url(./img-about.jpg) no-repeat center center fixed;
+    }
+}
+
+/* for medium size screen*/
+@media only screen and ( min-width: 501px) and (max-device-width: 800px) {
+     #home {
+    background: url(./img1-sm.jpg) no-repeat center center fixed;
+    }
+
     #aboutme p {
         background: rgba(0, 0, 0, 0.4);
         font-size: 1.2em !important;
     }
 }
+
+/* for small size screen*/
+@media only screen and (min-width:401px ) and ( max-width: 500px) {
+     #home {
+        background: url(./img1-xs.jpg) no-repeat center center fixed;
+    }
+    #aboutme {
+        background: url(./img-about-mobile.jpg) no-repeat center center fixed;
+    }
+}
+
+/* for extra small size screen*/
+@media only screen  and (max-width: 400px) {
+    #home {
+        background: url(./img1-xs.jpg) no-repeat center center fixed;
+    }
+    #aboutme {
+        background: url(./img-about-mobile1.jpg) no-repeat center center fixed;
+    }
+}
+
+
+
 @media only screen and (max-device-width: 500px) {
     #aboutme p {
         background: rgba(0, 0, 0, 0.4);
@@ -77,6 +156,8 @@ body {
     /* background-color: hsla(0, 0%, 7%, 0.25);;  */
     
     font-family: font2;
+    /*font-family: 'Lato', sans-serif;
+    font-family: 'Abril Fatface', cursive;*/
     font-size: 7vw;
     color: black;
     /* padding: 18px; */
@@ -123,21 +204,7 @@ body {
 }
 
 
-#home {
-    background: url(./img1.jpg) no-repeat center center fixed;
-    /* background-color: rgba(195, 178, 178, 0.26); */
-    /* background-blend-mode: lighten; */
-    
-    display: table;
-    height: 100%;
-    color: white;
-    position: relative;
-    width: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
+
 #middleabout {
     background: url(./about.jpg) no-repeat center center fixed;
     background-color: rgba(195, 178, 178, 0.26);
@@ -152,20 +219,7 @@ body {
     -o-background-size: cover;
     background-size: cover;
 }
-#aboutme {
-    background: url(./img.jpg) no-repeat center center fixed;
-    background-color: rgba(195, 178, 178, 0.26);
-    background-blend-mode: lighten;
-    display: table;
-    height: 100%;
-    color: white;
-    position: relative;
-    width: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
+
 #skills {
     background: url(./skills.jpg) no-repeat center center fixed;
     background-color: rgba(195, 178, 178, 0.26);
