@@ -70,13 +70,13 @@ body {
     background-size: cover;
 }
 /* for large screen*/
-@media only screen and (min-width: 1025px) {
+@media only screen and (min-device-width: 1025px) {
      #aboutme {
         background: url(./img.jpg) no-repeat center center fixed;
      }
 }
 /* for medium-large size screen*/
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-device-width: 1024px) {
     #home {
     background: url(./img1-md.jpg) no-repeat center center fixed;
     }
@@ -86,7 +86,7 @@ body {
 }
 
 /* for medium size screen*/
-@media only screen and ( min-width: 501px) and (max-device-width: 800px) {
+@media only screen and ( min-device-width: 501px) and (max-device-width: 800px) {
      #home {
     background: url(./img1-sm.jpg) no-repeat center center fixed;
     }
@@ -97,7 +97,7 @@ body {
 }
 
 /* for small size screen*/
-@media only screen and (min-width:401px ) and ( max-width: 500px) {
+@media only screen and (min-device-width:401px ) and ( max-device-width: 500px) {
      #home {
         background: url(./img1-xs.jpg) no-repeat center center fixed;
     }
@@ -107,7 +107,7 @@ body {
 }
 
 /* for extra small size screen*/
-@media only screen  and (max-width: 400px) {
+@media only screen  and (max-device-width: 400px) {
     #home {
         background: url(./img1-xs.jpg) no-repeat center center fixed;
     }
