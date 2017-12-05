@@ -44,8 +44,7 @@ body {
     /*background-color: rgba(195, 178, 178, 0.26);*/
     background-blend-mode: lighten;
     display: table;
-    height: 100%;
-    color: white;
+    color: black;
     position: relative;
     width: 100%;
     -webkit-background-size: cover;
@@ -92,7 +91,6 @@ body {
     }
 
     #aboutme p {
-
         font-size: 1.2em !important;
     }
 }
@@ -121,7 +119,6 @@ body {
 
 @media only screen and (max-device-width: 500px) {
     #aboutme p {
-
         font-size: 0.9em !important;
         padding: 5%;
     }
