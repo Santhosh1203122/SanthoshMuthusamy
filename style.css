@@ -120,7 +120,7 @@ body {
 
 @media only screen and (max-device-width: 500px) {
     #aboutme p {
-        font-size: 0.9em !important;
+        font-size: 0.7em !important;
         padding: 5%;
     }
     .circle {
