@@ -76,7 +76,7 @@ body {
      }
 }
 /* for medium-large size screen*/
-@media only screen and (max-device-width: 1024px) {
+@media only screen and ( min-device-width: 801px) and (max-device-width: 1024px) {
     #home {
     background: url(./img1-md.jpg) no-repeat center center fixed;
     }
