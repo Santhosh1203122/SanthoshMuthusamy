@@ -7,8 +7,12 @@
     <meta name="author" content="Script Tutorials" />
     <title>Santhosh Muthusamy</title>
     <link href="https://fonts.googleapis.com/css?family=Merienda+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Varela" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
     <!-- attach CSS styles -->
     <script  src="./jquery.js"></script>
+    
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="style.css" rel="stylesheet" />
 </head>
@@ -84,12 +88,12 @@
         
     </div> -->
     <div id="aboutme">
-        <div class="text-vcenter" style="vertical-align:middle;font-family:font1;font-size:30px">
+        <div class="text-vcenter" style="vertical-align:middle;font-family:font1;font-size:20px">
             <div class="row">
                 <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-2 col-lg-5 col-md-5 col-sm-8 col-xs-12" style="text-align:left">
-                    <p style="font-family:font2;text-align:center;margin: 0 0 0px;">About Me</p>
-                    <p style="text-align:justify">  I started web development by the age of 12. Then, during High school created small, small websites. During College days created and maintained website for our department. But officially became a Front End Web Developer in the year 2016 through udacity Front End Web Developer Nanodegree and started creating responsive and elegant websites</p>
-                   <p style="text-align:justify">Apart from this I love to cook a lot with the vegetables, which I grew in either my roof top or in my farm. While the food is cooking I love to make some tattoo arts</p>
+                    <p style="font-family:font2;text-align:center;margin: 0 0 0px;color: black">About Me</p>
+                    <p style="text-align:justify;font-family:font3 ;color: #000000bf">  I started web development by the age of 12. Then, during High school created small, small websites. During College days created and maintained website for our department. But officially became a Front End Web Developer in the year 2016 through udacity Front End Web Developer Nanodegree and started creating responsive and elegant websites</p>
+                   <p style="text-align:justify;font-family: font3 !important;color: #000000bf">Apart from this I love to cook a lot with the vegetables, which I grew in either my roof top or in my farm. While the food is cooking I love to make some tattoo arts</p>
                 </div>
             </div>
 
@@ -228,6 +232,11 @@
     </div>
 
     <script>
+    if($('#project').is(':visible'))
+        {
+            //do your thing
+            console.log('hai');
+        }
         $("#down").click(function() {
             $('html,body').animate({
                     scrollTop: $("#middleabout").offset().top
@@ -299,6 +308,33 @@
                 $("#headericon").hide();
                 flag=0
         }
+        $(window).on('scroll',function() {
+            // if (checkVisible($('#project'))) {
+            //     alert("Visible!!!");
+            //     $(window).off('scroll');
+            // } else {
+            //     // do nothing
+            // }
+            // if ($('#project').visible(true)) {
+            //     alert("Visible!!!");
+            //     // The element is visible, do something
+            // } else {
+            //     // The element is NOT visible, do something else
+            // }
+            console.log($(window));
+            var top_of_element = $("#project").offset().top;
+                var bottom_of_element = $("#project").offset().top ;
+                var bottom_of_screen = $(window).scrollTop() + $(window).height();
+                var top_of_screen = $(window).scrollTop();
+               
+                if((bottom_of_screen > top_of_element)){
+                    // The element is visible, do something
+                    console.log('hai');
+                }
+                else {
+                    // The element is not visible, do something else
+                }
+        });
     </script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
