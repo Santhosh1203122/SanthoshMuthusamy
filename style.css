@@ -92,7 +92,7 @@ body {
     }
 
     #aboutme p {
-/*         background: rgba(0, 0, 0, 0.4); */
+
         font-size: 1.2em !important;
     }
 }
@@ -121,7 +121,7 @@ body {
 
 @media only screen and (max-device-width: 500px) {
     #aboutme p {
-/*         background: rgba(0, 0, 0, 0.4); */
+
         font-size: 0.9em !important;
         padding: 5%;
     }
