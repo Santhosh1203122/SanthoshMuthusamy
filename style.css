@@ -73,7 +73,7 @@ body {
 /* for large screen*/
 @media only screen and (min-width: 1025px) {
 	 #home {
-    background: url(./img1-md.jpg) no-repeat center center fixed;
+    background: url(./img1-md.jpg) no-repeat center center ;
     }
      #aboutme {
         background: url(./img-about.jpg) no-repeat center center fixed;
@@ -82,7 +82,7 @@ body {
 /* for medium-large size screen*/
 @media only screen and ( min-width: 801px) and (max-width: 1024px) {
     #home {
-    background: url(./img1-md.jpg) no-repeat center center fixed;
+    background: url(./img1-md.jpg) no-repeat center center ;
     }
     #aboutme {
         background: url(./img-about.jpg) no-repeat center center fixed;
@@ -92,7 +92,7 @@ body {
 /* for medium size screen*/
 @media only screen and ( min-width: 501px) and (max-width: 800px) {
      #home {
-    background: url(./img1-sm.jpg) no-repeat center center fixed;
+    background: url(./img1-sm.jpg) no-repeat center center ;
     }
 	 #aboutme {
         background: url(./img-about.jpg) no-repeat center center fixed;
@@ -105,7 +105,7 @@ body {
 /* for small size screen*/
 @media only screen and (min-width:401px ) and ( max-width: 500px) {
      #home {
-        background: url(./img1-xs.jpg) no-repeat center center fixed;
+        background: url(./img1-xs.jpg) no-repeat center center ;
     }
     #aboutme {
         background: url(./img-about-mobile.jpg) no-repeat center center fixed;
@@ -115,7 +115,7 @@ body {
 /* for extra small size screen*/
 @media only screen  and (max-width: 400px) {
     #home {
-        background: url(./img1-xs.jpg) no-repeat center center fixed;
+        background: url(./img1-xs.jpg) no-repeat center center ;
     }
     #aboutme {
         background: url(./img-about-mobile1.jpg) no-repeat center center fixed;
