@@ -28,10 +28,10 @@ body {
 
 @media only screen and (min-device-width: 784px) {
     .border {
-        font-size: 4vw !important;
+        font-size: 3.5em !important;
     }
     .borders {
-        font-size: 2.5em !important;
+        font-size: 1.5em !important;
     }
     a {
         font-size: 2vw !important;
@@ -42,11 +42,10 @@ body {
 #aboutme {
    
     /*background-color: rgba(195, 178, 178, 0.26);*/
-	 background: url(./img.jpg) no-repeat center center fixed;
     background-blend-mode: lighten;
     display: table;
-	height: 100%;
-    color: rgba(0, 0, 0, 0.74901960784313);
+    height: 100%;
+    color: white;
     position: relative;
     width: 100%;
     -webkit-background-size: cover;
@@ -56,12 +55,12 @@ body {
 }
 
 #home {
-    
+    background: url(./img1.jpg) no-repeat center center fixed;
     /* background-color: rgba(195, 178, 178, 0.26); */
     /* background-blend-mode: lighten; */
-    background: url(./img1.jpg) no-repeat center center fixed;
+    
     display: table;
-    height: 100vh;
+    height: 100%;
     color: white;
     position: relative;
     width: 100%;
@@ -72,17 +71,14 @@ body {
 }
 /* for large screen*/
 @media only screen and (min-width: 1025px) {
-	 #home {
-    background: url(./img1-md.jpg) no-repeat center center ;
-    }
      #aboutme {
-        background: url(./img-about.jpg) no-repeat center center fixed;
+        background: url(./img.jpg) no-repeat center center fixed;
      }
 }
 /* for medium-large size screen*/
-@media only screen and ( min-width: 801px) and (max-width: 1024px) {
+@media only screen and (max-width: 1024px) {
     #home {
-    background: url(./img1-md.jpg) no-repeat center center ;
+    background: url(./img1-md.jpg) no-repeat center center fixed;
     }
     #aboutme {
         background: url(./img-about.jpg) no-repeat center center fixed;
@@ -90,14 +86,16 @@ body {
 }
 
 /* for medium size screen*/
-@media only screen and ( min-width: 501px) and (max-width: 800px) {
+@media only screen and ( min-width: 501px) and (max-device-width: 800px) {
      #home {
-    background: url(./img1-sm.jpg) no-repeat center center ;
+    background: url(./img1-sm.jpg) no-repeat center center fixed;
     }
-	 #aboutme {
-        background: url(./img-about.jpg) no-repeat center center fixed;
+    .border {
+        font-size:3em;
     }
+
     #aboutme p {
+        background: rgba(0, 0, 0, 0.4);
         font-size: 1.2em !important;
     }
 }
@@ -105,7 +103,7 @@ body {
 /* for small size screen*/
 @media only screen and (min-width:401px ) and ( max-width: 500px) {
      #home {
-        background: url(./img1-xs.jpg) no-repeat center center ;
+        background: url(./img1-xs.jpg) no-repeat center center fixed;
     }
     #aboutme {
         background: url(./img-about-mobile.jpg) no-repeat center center fixed;
@@ -115,7 +113,7 @@ body {
 /* for extra small size screen*/
 @media only screen  and (max-width: 400px) {
     #home {
-        background: url(./img1-xs.jpg) no-repeat center center ;
+        background: url(./img1-xs.jpg) no-repeat center center fixed;
     }
     #aboutme {
         background: url(./img-about-mobile1.jpg) no-repeat center center fixed;
@@ -126,7 +124,8 @@ body {
 
 @media only screen and (max-device-width: 500px) {
     #aboutme p {
-        font-size: 0.6em !important;
+        background: rgba(0, 0, 0, 0.4);
+        font-size: 0.9em !important;
         padding: 5%;
     }
     .circle {
@@ -140,6 +139,12 @@ body {
     /*background: rgba(93, 86, 187, 0.44);*/
     font-size: 75% !important;
     }
+    .border {
+        font-size: 1.5em !important;
+    }
+    .borders {
+        font-size: 0.8em !important;
+    }
 }
 .circle p {
     margin-top: 9vh;
@@ -152,7 +157,7 @@ body {
     /* background-color: hsla(0, 0%, 7%, 0.25);;  */
     
     font-family: font1;
-    font-size: 2vw;
+    font-size: 1em;
     color: black;
     /* padding: 18px; */
 }
@@ -266,7 +271,7 @@ body {
 
 a {
     font-size: 3vw;
-    color: black;
+    color: white;
 }
 /*.circle:hover {
     cursor:pointer;
