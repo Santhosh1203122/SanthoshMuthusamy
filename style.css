@@ -42,6 +42,7 @@ body {
 #aboutme {
    
     /*background-color: rgba(195, 178, 178, 0.26);*/
+	 background: url(./img.jpg) no-repeat center center fixed;
     background-blend-mode: lighten;
     display: table;
 	height: 100%;
@@ -58,7 +59,7 @@ body {
     
     /* background-color: rgba(195, 178, 178, 0.26); */
     /* background-blend-mode: lighten; */
-    
+    background: url(./img1.jpg) no-repeat center center fixed;
     display: table;
     height: 100vh;
     color: white;
