@@ -27,11 +27,11 @@ body {
 }
 
 @media only screen and (min-device-width: 784px) {
-    .border {
-        font-size: 4vw !important;
+     .border {
+        font-size: 3.5em !important;
     }
     .borders {
-        font-size: 2.5em !important;
+        font-size: 1.5em !important;
     }
     a {
         font-size: 2vw !important;
@@ -97,7 +97,12 @@ body {
 	 #aboutme {
         background: url(./img-about.jpg) no-repeat center center fixed;
     }
+     .border {
+        font-size:3em;
+    }
+
     #aboutme p {
+        background: rgba(0, 0, 0, 0.4);
         font-size: 1.2em !important;
     }
 }
@@ -140,6 +145,12 @@ body {
     /*background: rgba(93, 86, 187, 0.44);*/
     font-size: 75% !important;
     }
+	.border {
+        font-size: 1.5em !important;
+    }
+    .borders {
+        font-size: 0.8em !important;
+    }
 }
 .circle p {
     margin-top: 9vh;
@@ -152,7 +163,7 @@ body {
     /* background-color: hsla(0, 0%, 7%, 0.25);;  */
     
     font-family: font1;
-    font-size: 2vw;
+    font-size: 1em;
     color: black;
     /* padding: 18px; */
 }
