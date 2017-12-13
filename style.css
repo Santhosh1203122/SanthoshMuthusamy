@@ -91,7 +91,7 @@ body {
 /* for large screen*/
 @media only screen and (min-width: 1025px) {
 	 #home {
-    background: url(./img1.jpg) no-repeat center center ;
+    background: url(./img1-md.jpg) no-repeat center center ;
     }
      #aboutme {
         background: url(./img.jpg) no-repeat center center fixed;
